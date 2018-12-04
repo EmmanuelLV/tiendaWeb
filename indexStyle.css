@@ -1,0 +1,89 @@
+body {    
+    
+    background-image: url(img/background.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    background: linear-gradient(black 35%, #9B2400 );
+    max-height: 10%;
+    align-items: center;
+}
+.imgHeader{
+    width: 40%;
+    min-width: 80;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15px;
+}
+
+.searchBar{
+    color: black;
+    background-color: azure;
+    width: 35%;
+    height: 30px;
+    display: inline;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+@media only screen and (max-width: 650px) {
+    .searchBar {
+        width: 80%;
+    }
+}
+
+article{
+    background-color: aliceblue;
+    max-width: 20%;
+    width: auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    webkit-box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.5);
+    
+}
+
+article img{
+    width: 100%;
+}
+
+article precio{
+    color: #75da10
+}
+
+.box2 {
+  display: inline-block;
+  min-height: 60px;
+}
+ .today{
+    display: block;
+    background-color: #9B2400;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+ .tomorrow{
+    display: block;
+    background-color: #FF9900;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
